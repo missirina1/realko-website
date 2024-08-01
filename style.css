@@ -2,7 +2,7 @@
 }
 .home-header__row-1 {
   width: 100%;
-  height: 40px;
+  height: 2.5rem;
   background-color: rgba(147, 152, 120, 1);
   color: white;
   text-align: center;
@@ -16,12 +16,12 @@
   color: black;
   display: flex;
   width: 100%;
-  height: 74px;
+  height: 4.6rem;
   justify-content: space-between;
 }
 .home-header__logo img {
-  width: 105px;
-  height: 32px;
+  width: 6.56rem;
+  height: 2rem;
   padding: 1rem;
   margin: 0 0 0 3rem;
 }
@@ -41,29 +41,29 @@
   margin: 0 1.5rem 0 0;
 }
 .home-header__btn-white {
-  width: 100px;
-  height: 42px;
-  border-radius: 10px;
+  width: 6.25rem;
+  height: 2.62rem;
+  border-radius: 0.625rem;
   background-color: white;
   margin: 0 1.5rem 0 0;
 }
 .btn-white {
-  border-radius: 10px;
-  border-width: 0.5px;
+  border-radius: 0.625rem;
+  border-width: 0.0313rem;
   background-color: white;
 }
 .home-header__btn-carrot {
-  width: 159px;
-  height: 42px;
-  border-radius: 10px;
+  width: 9.9375rem;
+  height: 2.625rem;
+  border-radius: 0.625rem;
   background-color: rgba(207, 111, 73, 1);
   color: white;
 }
 .btn-carrot {
-  border-radius: 10px;
+  border-radius: 0.625rem;
   background-color: rgba(207, 111, 73, 1);
   color: white;
-  border-width: 0.5px;
+  border-width: 0.0313rem;
 }
 .home-banner {
   display: grid;
@@ -79,21 +79,21 @@
   flex-direction: column;
   justify-content: center;
   margin: 0 0 0 10rem;
-  width: 560px;
+  width: 35rem;
 }
 .home-banner__btn-grey button {
   background-color: rgba(231, 232, 227, 1);
   color: rgba(42, 44, 31, 1);
-  border-radius: 10px;
-  border-width: 0px;
+  border-radius: 0.625rem;
+  border-width: 0rem;
   padding: 0.3rem;
 }
 .home-banner__title {
-  font-size: 56px;
+  font-size: 3.5rem;
   color: rgba(42, 44, 31, 1);
 }
 .home-banner__text {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: rgba(101, 102, 92, 1);
 }
 .home-banner__search {
@@ -102,21 +102,21 @@
   margin: 0 4rem 0 0;
 }
 .home-banner__input input {
-  width: 310px;
-  height: 48px;
-  border-radius: 10px;
-  font-size: 20px;
+  width: 19.375rem;
+  height: 3rem;
+  border-radius: 0.625rem;
+  font-size: 1.25rem;
   margin: 0 2rem 0 0;
 }
 .home-banner__btn-carrot {
-  width: 154px;
-  height: 50px;
-  font-size: 20px;
+  width: 9.625rem;
+  height: 3.125rem;
+  font-size: 1.25rem;
 }
 .home-banner__btn-carrot p {
   margin: 0;
   text-align: center;
-  padding: 10px 0 0 0;
+  padding: 0.625rem 0 0 0;
 }
 .btn-carrot {
 }
@@ -124,8 +124,8 @@
   grid-column: 2;
 }
 .home-banner__column-2 img {
-  width: 720px;
-  height: 686px;
+  width: 45rem;
+  height: 42.875rem;
   object-fit: cover;
 }
 .home-footer {
@@ -140,10 +140,10 @@
 }
 
 .home-footer__text {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: rgba(42, 44, 31, 1);
   margin: 0 0 0 2rem;
-  width: 243px;
+  width: 15.1875rem;
 }
 .home-footer__icon {
   display: flex;
