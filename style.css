@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 .home-header a {
   text-decoration: none;
@@ -29,7 +30,7 @@ body {
 .home-header__logo img {
   width: 6.56rem;
   height: 2rem;
-  margin: 0 0 0 3rem;
+  margin: 0 0 0 5rem;
 }
 .home-header__menu {
   display: flex;
@@ -98,16 +99,18 @@ body {
   margin: 0 1rem 0 0;
 }
 .btn-white {
+  border: solid;
   border-radius: 0.625rem;
-  border-width: 0.0625rem;
+  border-width: 0.13rem;
   background-color: white;
   border-color: rgba(231, 232, 227, 1);
 }
 .home-header__btn-carrot {
   width: 9.9375rem;
   height: 2.625rem;
-  border-radius: 0.625rem;
-  background-color: rgba(207, 111, 73, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .home-header__btn-carrot a {
   color: white;
@@ -163,7 +166,7 @@ body {
 }
 .home-banner__search_icon {
   position: absolute;
-  margin: 1rem 0 0 1rem;
+  margin: 0.8rem 0 0 1rem;
   width: 1.125rem;
   height: 1.125rem;
 }
@@ -197,9 +200,10 @@ body {
   grid-column: 2;
 }
 .home-banner__column-2 img {
-  width: 45rem;
-  height: 42.875rem;
+  width: 100%;
+  height: auto;
   object-fit: cover;
+  margin: 0 0 0 4rem;
 }
 .home-footer {
   display: grid;
@@ -214,6 +218,7 @@ body {
 
 .home-footer__text {
   font-size: 1.125rem;
+  font-weight: 350;
   color: rgba(42, 44, 31, 1);
   margin: 0 0 0 2rem;
   width: 15.1875rem;
@@ -222,7 +227,7 @@ body {
   display: flex;
   align-items: center;
 }
-home-footer__img {
+.home-footer__img {
   display: flex;
 }
 .home-footer__icon img {
