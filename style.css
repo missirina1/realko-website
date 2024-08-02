@@ -203,14 +203,12 @@ body {
   margin: 0 0 0 4rem;
 }
 .home-footer {
-  display: flex;
-  margin: 2rem 2rem 1rem 2rem;
-  align-items: center;
+  margin: 2rem 2rem 2rem 2rem;
 }
 .home-footer__content {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .home-footer__text {
