@@ -50,8 +50,6 @@ body {
   position: relative;
 }
 
-.home-header__dropdown {
-}
 .home-header__dropdown ul {
   display: none;
 }
@@ -194,8 +192,7 @@ body {
   color: white;
   text-decoration: none;
 }
-.btn-carrot {
-}
+
 .home-banner__column-2 {
   grid-column: 2;
 }
