@@ -107,7 +107,7 @@
     left: 0;
     height: 3.125rem;
     width: 100%;
-    background-color: rgba(147, 152, 120, 1);
+    background-color: rgba(147, 152, 120, 0.938);
     z-index: 2;
   }
   .home-header__row-1 {
