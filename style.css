@@ -431,6 +431,33 @@ body {
  }
  
 
+.location {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1.5fr 1fr 1fr 1.5fr;
+}
+.location__description {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.location__item {
+  background-color: rgba(231, 232, 227, 1);
+  border: 3px solid rgba(231, 232, 227, 1);
+  border-radius: 10px;
+  margin: 15px;
+  padding: 1rem;
+}
+.location__buttons {
+  grid-column: 1 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .latest-posts {
   display: grid;
   grid-template-rows: repeat(5, auto);
