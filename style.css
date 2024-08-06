@@ -231,24 +231,25 @@ body {
   margin: 0 2rem 0 0;
 }
 
-.body_best_houses {
+/* начало блока BestHouses - Yuliya Akula */
+.body_besthouses {
   width: 75%;
   margin: 0 auto;
   background-color: rgb(255, 255, 255);
 }
 
-.best_houses {
+.besthouses {
   display: grid;
   grid-template-columns: 37.5rem 37.5rem;
   grid-template-rows: 1fr;
 }
 
-.icon_houses_1 {
+.besthouses__icon_1 {
   padding-top: 8.75rem;
   padding-bottom: 1.563rem;
 }
 
-.button_houses_1 {
+.besthouses__button_1 {
   grid-row: 3 /4;
   grid-column: 1 /3;
   width: 6.688rem;
@@ -260,7 +261,7 @@ body {
   font-size: 0.875rem;
 }
 
-.houses_article_1 {
+.besthouses__article_1 {
   grid-row: 2 /3;
   grid-column: 1 / 3;
   width: 100%;
@@ -271,7 +272,7 @@ body {
   color: rgb(46, 46, 46);
 }
 
-.houses_article_2 {
+.besthouses__article_2 {
   grid-row: 3 /4;
   grid-column: 1 / 3;
   width: 100%;
@@ -280,7 +281,7 @@ body {
   line-height: 1.688rem;
 }
 
-.houses_container_1 {
+.besthouses__container_1 {
   display: grid;
   align-items: baseline;
   padding-top: 1.25rem;
@@ -288,7 +289,7 @@ body {
   grid-template-rows: 1fr;
 }
 
-.button_houses_2 {
+.besthouses__button_2 {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   grid-row: 1;
@@ -301,7 +302,7 @@ body {
   font-size: 1.0625rem;
 }
 
-.houses_article_3 {
+.besthouses__article_3 {
   grid-row: 1;
   padding-left: 1.875rem;
   grid-column: 2/3;
@@ -309,31 +310,31 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.houses_article_4 {
+.besthouses__article_4 {
   grid-row: 1;
   grid-column: 2/ 4;
 }
 
-.houses_container_2 {
+.besthouses__container_2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
 }
 
-.houses_main_part_2 {
+.besthouses__part_two {
   padding-top: 6.25rem;
   display: grid;
   grid-template-columns: 50rem 1fr;
   grid-template-rows: 1fr;
 }
 
-.houses_container_3 {
+.besthouses__container_3 { width: 100%;
   grid-row: 1 /1;
-  grid-column: 2 / 4;
+  grid-column: 2 / 3;
   padding-top: 3.438rem;
 }
 
-.button_houses_3 {
+.besthouses__button_3 {
   width: 7.938rem;
   height: 1.813rem;
   border: 0;
@@ -343,11 +344,11 @@ body {
   font-size: 0.875rem;
 }
 
-.icon_houses_3 {
+.besthouses__icon_3 {
   padding-bottom: 1.563rem;
 }
 
-.houses_article_5 {
+.besthouses__article_5 {
   grid-row: 2 /3;
   grid-column: 1 / 3;
   width: 100%;
@@ -357,7 +358,7 @@ body {
   color: rgb(46, 46, 46);
 }
 
-.houses_article_6 {
+.besthouses__article_6 {
   grid-row: 3 /4;
   grid-column: 1 / 3;
   width: 100%;
@@ -366,71 +367,63 @@ body {
   line-height: 27px;
 }
 
-.houses_container_6 {
+.besthouses__container_6 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 }
 
-.houses_article_12 {
+.besthouses__article_12 {
   grid-row: 1;
   grid-column: 1;
 }
 
-.houses_container_4 {
+.besthouses__container_4 {width: 100%; 
   padding-top: 2.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 3.75rem 3.75rem 3.75rem;
 }
 
-.icon_houses_4 {
+.besthouses__icon_4 {
   grid-row: 1/2;
   grid-column: 1/2;
 }
 
-.houses_article_7 {
+.besthouses__article_7 {
   grid-row: 2/3;
-  grid-column: 1/2;
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-  font-size: 1.25rem;
-  font-weight: bold;
+  grid-column: 1/2; 
   color: rgb(46, 46, 46);
 }
 
-.houses_article_8 {
+.besthouses__article_8 {width: 100%; 
   grid-row: 3 /4;
-  grid-column: 1 / 3;
+  grid-column: 1 / 2;
   font-size: 1rem;
   color: rgb(114, 114, 114);
   line-height: 24px;
 }
 
-.icon_houses_5 {
+.besthouses__icon_5 {
   grid-row: 1/2;
   grid-column: 2/3;
 }
 
-.houses_article_9 {
+.besthouses__article_9 {
   grid-row: 2/3;
   grid-column: 2/3;
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-  font-size: 1.25rem;
-  font-weight: bold;
   color: rgb(46, 46, 46);
 }
 
-.houses_article_10 {
-  grid-row: 3 /4;
+.besthouses__article_10 {
+  grid-row: 3 /4;width: 100%;
   grid-column: 2/ 3;
   font-size: 1rem;
   color: rgb(114, 114, 114);
   line-height: 24px;
 }
 
-.houses_container_5 {
+.besthouses__container_5 {
   display: grid;
   grid-template-columns: 12.5rem 12.5rem;
   grid-template-rows: 1fr;
@@ -438,7 +431,7 @@ body {
   padding-top: 2.5rem;
 }
 
-.button_houses_4 {
+.besthouses__button_4 {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   grid-row: 1;
@@ -451,13 +444,14 @@ body {
   font-size: 1.0625rem;
 }
 
-.houses_article_11 {
+.besthouses__article_11 {
   grid-row: 1;
   padding-left: 1.875rem;
   grid-column: 2/3;
   font-size: 1.0625rem;
   color: rgb(0, 0, 0);
 }
+/* конец блока BestHouses - Yuliya Akula */
 
 .location {
   display: grid;
