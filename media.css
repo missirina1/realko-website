@@ -209,6 +209,27 @@
   .home-footer__icon img {
     margin: 0 0 0.5rem 0;
   }
+  .location {
+    display: flex;
+    flex-direction: column;
+  }
+  .location__description {
+    font-size: 0.9rem;
+  }
+  .location__description h2 {
+    font-size: 2rem;
+  }
+  .customers {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+  .customers__description {
+    font-size: 0.9rem;
+  }
+  .customers__description h2 {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 375px) {
   .home-banner__title {
@@ -249,5 +270,26 @@
   }
   .home-footer__img {
     width: 90%;
+  }
+  .location {
+    display: flex;
+    flex-direction: column;
+  }
+  .location__description {
+    font-size: 0.9rem;
+  }
+  .location__description h2 {
+    font-size: 2rem;
+  }
+  .customers {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+  .customers__description {
+    font-size: 0.9rem;
+  }
+  .customers__description h2 {
+    font-size: 2rem;
   }
 }
