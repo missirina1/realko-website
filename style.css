@@ -486,6 +486,8 @@ body {
   align-items: center;
 }
 
+/* "Анна - Lastest posts - footer" */
+
 .latest-posts {
   display: grid;
   grid-template-rows: repeat(5, auto);
@@ -517,6 +519,7 @@ body {
   grid-area: 2 / 1 / 3 / 4;
   font-weight: 700;
   font-size: 3rem;
+  margin-bottom: 1.8rem;
 }
 
 .latest-posts__aside {
@@ -547,14 +550,69 @@ body {
   color: #2a2c1f;
 }
 
-.latest-posts__img {
-  grid-area: 5 / 1 / 6 / 4;
-  justify-self: center;
+.latest-posts__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 3rem;
 }
 
-.latest-posts__img img {
-  width: 23.16rem;
-  height: 33rem;
+.latest-posts__section {
+    width: 25.2rem;
+    height: 34.2rem;
+    border-radius: 0.475rem;
+    box-shadow: 0 2px 5px 0 rgba(110, 110, 110, 0.2);
+    border: 1px solid rgba(231, 232, 227, 1);
+    background-color: #ffffff;
+}
+
+.latest-posts__info {
+  padding: 1.5rem;
+}
+
+.latest-posts__button_pink {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+  color: #65665C;
+}
+
+.latest-posts__button_pink button {
+  text-align: center;
+  color: rgb(42, 44, 31);
+  background-color: #FAE8E1;
+  width: 3.9rem;
+  height: 1.8rem;
+  border-radius: 2rem;
+  border-width: 0rem;
+}
+
+.latest-posts__info h3 {
+  font-size: 1.5rem;
+
+}
+
+.latest-posts__cards aside {
+  color: #65665C;
+  margin-bottom: 1.5rem;
+}
+
+.latest-posts__cards a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(42, 44, 31);
+  font-weight: 700;
+}
+
+.latest-posts__info a::after {
+  font-family: "Material Symbols Outlined";
+  content: "chevron_right";
+  font-size: small;
+  padding-left: 0.3rem;
+  align-self: flex-end;
 }
 
 footer {
@@ -674,3 +732,4 @@ footer {
 .footer__end li {
   padding: 0.75rem;
 }
+/* "Анна - Lastest posts - footer" */
