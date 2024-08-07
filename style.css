@@ -453,6 +453,8 @@ body {
 }
 /* конец блока BestHouses - Yuliya Akula */
 
+/* "Анна Д - Locations" */
+
 .location {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -487,6 +489,8 @@ body {
   justify-content: center;
   align-items: center;
 }
+/* "Анна Д - Customers" */
+
 .customers {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
