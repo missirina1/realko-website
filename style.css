@@ -42,6 +42,10 @@ body {
   display: flex;
 }
 .home-header__list ul {
+  padding: 0;
+  margin: 0;
+}
+.home-header__list ul {
   display: flex;
   list-style: none;
   align-items: center;
@@ -146,7 +150,7 @@ body {
   margin: 0 0 1.5rem 0;
 }
 .home-banner__title {
-  font-size: 3.5rem;
+  font-size: 3.5rem !important;
   color: rgba(42, 44, 31, 1);
   font-weight: 400;
 }
@@ -199,13 +203,12 @@ body {
   grid-column: 2;
 }
 .home-banner__column-2 img {
-  width: 100%;
-  height: auto;
+  max-width: 45rem;
   object-fit: cover;
-  margin: 0 0 0 0;
+  margin: 0 0 0 5rem;
 }
 .home-footer {
-  margin: 2rem 2rem 2rem 2rem;
+  margin: 0 2rem 2rem 2rem;
 }
 .home-footer__content {
   display: flex;
