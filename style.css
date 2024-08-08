@@ -236,6 +236,7 @@ body {
   margin: 0 2rem 0 0;
 }
 
+/* Начало блока How it works - Айтадж*/
 .container{
   display: flex;
   justify-content: center;
@@ -253,7 +254,7 @@ body {
 .title {
   text-align: center;
   margin-bottom: 1.3125rem;
-  margin-top: 15.1875rem;
+  margin-top: 7.5625rem;
   font-weight: 3rem;
 }
 
@@ -277,6 +278,7 @@ body {
 .subtitle2{
   font-size: 1rem;
 }
+/* Конец блока How it works - Айтадж*/
 /* начало блока BestHouses - Yuliya Akula */
 .body_besthouses {
   padding-left: 6.25rem;padding-top: 6.25rem;
@@ -505,6 +507,41 @@ body {
   color: rgb(0, 0, 0);
 }
 /* конец блока BestHouses - Yuliya Akula */
+
+/* Начало блока Family - Айтадж*/
+.container_2{
+  display: flex;
+  width: 80rem;
+  height: 29.0625rem;
+  background-color: rgba(101, 102, 92, 1);
+  border-radius: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title3{
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 1);
+}
+.subtitle3{
+  font-size: 1.125rem;
+  color: rgba(231, 232, 227, 1);
+  text-align: center;
+}
+.image2{
+  margin-top: 6rem;
+}
+.btn{
+  border-radius: 0.375rem;
+  background-color: rgba(207, 111, 73, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 1rem;
+  width: 8.5625rem;
+  height: 3.125rem;
+  border: none;
+}
+/* Конец  блока Family - Айтадж*/
 
 /* Начало блока Карточки - Яна*/
 * {
