@@ -611,6 +611,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1.5fr 1fr 1fr 1.5fr;
+  padding: 0 5rem;  
 }
 .location__description {
   grid-column: 1 / 4;
@@ -648,6 +649,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1.5fr 2fr 1fr;
   gap: 1rem;
+  padding: 0 5rem; 
 }
 .customers__description {
   grid-column: 1 / 4;
