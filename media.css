@@ -2,6 +2,10 @@
   .home-header__burger {
     display: none;
   }
+
+  .footer-spoiler {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1240px) {
@@ -149,6 +153,7 @@
   .nav-link:hover {
     color: rgba(147, 152, 120, 1);
   }
+
 }
 
 @media (max-width: 767px) and (min-width: 375px) {
@@ -243,6 +248,24 @@
   .customers__description h2 {
     font-size: 2rem;
   }
+
+  /* "footer-spoiler" */
+  .footer-content__logo, .footer-content__head, .footer-content__column-one, .footer-content__column-two, .footer-content__column-three {
+    display: none;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .footer-content__column-four {
+    justify-self: center;
+    padding-right: 0rem;
+  }
+/* "footer-spoiler" */
+
 }
 @media (max-width: 375px) {
   .home-banner__title {

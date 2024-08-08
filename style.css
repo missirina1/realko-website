@@ -810,6 +810,58 @@ footer {
   padding-top: 4rem;
 }
 
+/* .footer-spoiler */
+
+.footer-spoiler{
+  text-align: center;
+  background-color: #F5F5F2;
+}
+
+.footer-spoiler__dropdown {
+  position: relative;
+}
+
+.footer-spoiler__dropdown > span{
+  margin: 0px auto;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.footer-spoiler__dropdown > span::after {
+  font-family: "Material Symbols Outlined";
+  content: "chevron_right";
+  font-size: small;
+  padding-left: 0.3rem;
+  align-self: flex-end;
+}
+
+.footer-spoiler__dropdown-menu {
+  display: none;
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  list-style: none;
+  z-index: 1;
+  border: solid 1px gray;
+  border-radius: 0.375rem;
+  padding: 0;
+}
+
+.footer-spoiler__dropdown-menu li {
+  padding-top: 0.7rem;
+  letter-spacing: 2px;
+}
+
+.footer-spoiler__dropdown-menu li a {
+  text-decoration: none;
+  color: black;
+}
+.footer-spoiler__dropdown:hover .footer-spoiler__dropdown-menu{
+  display: block;
+}
+/* footer-spoiler */
+
+
 .footer-content {
   display: grid;
   grid-template-rows: auto 1fr;
