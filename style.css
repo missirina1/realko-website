@@ -236,24 +236,22 @@ body {
   margin: 0 2rem 0 0;
 }
 
+
 /* начало блока BestHouses - Yuliya Akula */
 .body_besthouses {
-  width: 75%;
-  margin: 0 auto;
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
   background-color: rgb(255, 255, 255);
 }
 
 .besthouses {
-  display: grid;
-  grid-template-columns: 37.5rem 37.5rem;
-  grid-template-rows: 1fr;
+  display: flex;
+  justify-content: space-between;
 }
-
 .besthouses__icon_1 {
   padding-top: 8.75rem;
   padding-bottom: 1.563rem;
 }
-
 .besthouses__button_1 {
   grid-row: 3 /4;
   grid-column: 1 /3;
@@ -320,24 +318,28 @@ body {
   grid-column: 2/ 4;
 }
 
+
 .besthouses__container_2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr;  justify-items: end;
 }
 
+.besthouses__part_one {
+  padding-right: 6.25rem;
+}
 .besthouses__part_two {
   padding-top: 6.25rem;
   display: grid;
-  grid-template-columns: 50rem 1fr;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fit, 37.5rem);
   grid-template-rows: 1fr;
 }
 
-.besthouses__container_3 {
-  width: 100%;
-  grid-row: 1 /1;
-  grid-column: 2 / 3;
-  padding-top: 3.438rem;
+.besthouses__container_3 { width: 100%;
+  grid-row: 1 ;
+  grid-column:3 /4;
+  padding-top: 3.438rem; padding-left: 2rem;
 }
 
 .besthouses__button_3 {
@@ -355,8 +357,7 @@ body {
 }
 
 .besthouses__article_5 {
-  grid-row: 2 /3;
-  grid-column: 1 / 3;
+
   width: 100%;
   font-size: 2.9375rem;
   padding-bottom: 1.875rem;
@@ -365,8 +366,6 @@ body {
 }
 
 .besthouses__article_6 {
-  grid-row: 3 /4;
-  grid-column: 1 / 3;
   width: 100%;
   font-size: 1.25rem;
   color: rgb(114, 114, 114);
@@ -384,8 +383,7 @@ body {
   grid-column: 1;
 }
 
-.besthouses__container_4 {
-  width: 100%;
+.besthouses__container_4 {width: 100%; 
   padding-top: 2.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -399,12 +397,11 @@ body {
 
 .besthouses__article_7 {
   grid-row: 2/3;
-  grid-column: 1/2;
+  grid-column: 1/2; 
   color: rgb(46, 46, 46);
 }
 
-.besthouses__article_8 {
-  width: 100%;
+.besthouses__article_8 {width: 100%; 
   grid-row: 3 /4;
   grid-column: 1 / 2;
   font-size: 1rem;
@@ -424,8 +421,7 @@ body {
 }
 
 .besthouses__article_10 {
-  grid-row: 3 /4;
-  width: 100%;
+  grid-row: 3 /4;width: 100%;
   grid-column: 2/ 3;
   font-size: 1rem;
   color: rgb(114, 114, 114);
@@ -461,6 +457,7 @@ body {
   color: rgb(0, 0, 0);
 }
 /* конец блока BestHouses - Yuliya Akula */
+
 /* Начало блока Карточки - Яна*/
 * {
   margin: 0;
