@@ -99,23 +99,6 @@
   .footer-spoiler {
     display: none;
   }
-  .how__cards {
-    flex-direction: row;
-    margin: 0 0 2.5rem 0;
-  }
-  .subtitle {
-    font-size: 0.9rem;
-  }
-
-  .title2 {
-    font-size: 1.2rem;
-  }
-
-  .subtitle2 {
-    font-size: 0.9rem;
-    margin: 0;
-    padding: 0 0.5rem 1.5rem 0.5rem;
-  }
 }
 @media (min-width: 768px) and (max-width: 1050px) {
   .home-banner__title {
@@ -225,6 +208,9 @@
 
   .box {
     height: max-content;
+  }
+  .subtitle {
+    margin: 0 0.5rem 1rem 0.5rem;
   }
   .title2 {
     font-size: 1rem;
