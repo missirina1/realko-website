@@ -87,6 +87,23 @@
   .home-footer__icon img {
     margin: 0 1rem 0 1rem;
   }
+  .how__cards {
+    flex-direction: row;
+    margin: 0 0 2.5rem 0;
+  }
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .title2 {
+    font-size: 1.2rem;
+  }
+
+  .subtitle2 {
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0 0.5rem 1.5rem 0.5rem;
+  }
 }
 @media (min-width: 768px) and (max-width: 1050px) {
   .home-banner__title {
@@ -171,7 +188,7 @@
     position: relative;
   }
   .home-banner__column-1 {
-    margin: 0 0 0 0;
+    margin: 0;
     width: 100%;
   }
   .home-banner__btn-grey button {
@@ -211,7 +228,7 @@
 
   .home-banner__column-2 img {
     width: 90%;
-    margin: 2rem 0 0 1.9rem;
+    margin: 0 0.5rem 0 2rem;
   }
   .home-footer {
     align-items: center;
@@ -224,7 +241,7 @@
 
   .home-footer__text {
     font-size: 1rem;
-    margin: 0 0 0 0;
+    margin: 0 0 0 0.7rem;
     width: 10rem;
   }
 
@@ -232,7 +249,7 @@
     flex-direction: column;
   }
   .home-footer__icon img {
-    margin: 0 0 0.5rem 0;
+    margin: 0 0.7rem 0.5rem 0;
   }
   .location {
     grid-template-columns: 1fr 1fr;
@@ -283,6 +300,25 @@
     padding-right: 0rem;
   }
   /* "footer-spoiler" */
+
+  .how__cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 0 2.5rem 0;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .title2 {
+    font-size: 1.2rem;
+  }
+
+  .subtitle2 {
+    font-size: 0.9rem;
+  }
 }
 @media (max-width: 375px) {
   .home-banner__title {
