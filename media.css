@@ -588,9 +588,13 @@
   /* "footer-spoiler" */
 }
 
+/*начало блока  "best houses" */
 @media (max-width: 1300px) {
   .besthouses__article_1 {
-    font-size: 2.5rem;
+    font-size: 2.5rem;    width: 90%;
+  }
+  .besthouses__article_2 {
+  width: 90%;
   }
   .besthouses__article_4 {
     grid-row: 2;
@@ -643,6 +647,8 @@
   .besthouses__container_4 {
     padding-top: 0rem;
   }
+  .besthouses__container_3 {
+  padding-left: 2rem;}
 }
 
 @media (max-width: 1000px) {
@@ -654,7 +660,7 @@
   }
 
   .besthouses__part_one {
-    padding-right: 1rem;
+    padding-right: 0.1rem;
   }
   .besthouses__icon_3 {
     padding-bottom: 0.5rem;
@@ -665,7 +671,7 @@
     padding-bottom: 1rem;
   }
   .besthouses__article_1 {
-    font-size: 2rem;
+    font-size: 2rem;     width: 90%;
     padding-bottom: 1.2rem;
     line-height: 35px;
   }
@@ -689,54 +695,71 @@
     padding-top: 3rem;
   }
   .besthouses__container_3 {
-    padding-top: 0rem;
+    padding-top: 0;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-  .body_besthouses {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-}
 
-@media (max-width: 767px) {
+@media (max-width: 840px) {
   .body_besthouses {
-    padding-left: 0.7rem;
-    padding-right: 0.7rem;
+    padding: 0 0.7rem;
   }
 
+  .besthouses__container_1{
+    justify-content: center;
+  }
+  .besthouses__container_5{
+    justify-content: center;
+  }
   .besthouses__container_2 {
     width: 300px;
     padding-top: 3rem;
   }
-
+  .besthouses__article_1 {
+    width: 100%;}
+  .besthouses__article_1 {
+    width: 100%;}
   .besthouses {
-    flex-direction: column;
+    flex-direction: column;display: flex;
+    align-items: center;
   }
 
   .besthouses__part_two {
     flex-direction: column;
-    align-items: flex-start;
+   
   }
 
-  .besthouses__container_3 {
-    padding-left: 0rem;
+  .besthouses__container_3 { display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
   }
   .besthouses__container_6 {
     width: 300px;
     padding-top: 3rem;
   }
 }
+@media (max-width: 540px) { 
+  .besthouses {
+    padding-left: 1rem;
+  }}
+@media (max-width: 500px) { 
+  .besthouses {
+    padding-left: 1rem;
+  }
+  .besthouses__icon_1 { display: none;}
+  .besthouses__icon_3 { display: none;}
 
-@media (max-width: 500px) {
   .besthouses__container_2 {
     width: 200px;
     padding-top: 1.2rem;
   }
+
   .besthouses__container_1 {
     grid-template-columns: 7rem 8rem;
-    padding-top: 0.5rem;
+    padding-top: 0.5rem; justify-content: center;
+  }
+  .besthouses__container_3 {
+    padding-left: 0;
   }
   .besthouses__container_6 {
     width: 200px;
@@ -744,7 +767,7 @@
   }
   .besthouses__container_4 {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; text-align: center;
   }
   .besthouses__button_2 {
     width: 7rem;
@@ -757,7 +780,7 @@
 
   .besthouses__container_5 {
     grid-template-columns: 7rem 8rem;
-    padding-top: 0.5rem;
+    padding-top: 0.5rem; justify-content: center;
   }
   .besthouses__button_4 {
     width: 7rem;
@@ -777,15 +800,23 @@
     font-size: 0.8rem;
   }
   .besthouses__article_6 {
-    width: 300px;
+    width: 300px; text-align: center;
   }
   .besthouses__icon_3 {
     padding-bottom: 1rem;
   }
   .besthouses__article_2 {
-    width: 300px;
-    font-size: 1rem;
+    width: 100%;
+    font-size: 1rem; text-align: center;
   }
+  .besthouses__article_1 { padding-top: 2rem;
+    text-align: center;
+  }
+  .besthouses__article_5 {
+    text-align: center;
+  }
+
+
 }
 
 @media (max-width: 325px) {
@@ -847,3 +878,5 @@
     font-size: 0.6rem;
   }
 }
+
+/*конец блока  "best houses" */
