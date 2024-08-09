@@ -372,7 +372,8 @@
   }
   .besthouses__container_4 {
     padding-top: 1rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 4rem 4rem;
+    grid-template-columns: 2fr 2rem 2fr;
   }
 
   .besthouses__icon_4 {
@@ -401,4 +402,172 @@
   .besthouses__container_4 {
     padding-top: 0rem;
   }
+}
+
+@media (max-width: 1000px) {
+ 
+  .besthouses__article_6 {
+    width: 500px;
+}
+.besthouses__article_2 {
+  width: 500px;
+}
+
+  .besthouses__part_one {
+    padding-right: 1rem;
+}
+.besthouses__icon_3 {
+  padding-bottom: 0.5rem;}
+  
+.besthouses__icon_1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;}
+ .besthouses__article_1 {
+      font-size: 2rem;  
+      padding-bottom: 1.2rem;
+      line-height: 35px;
+    }
+.besthouses__article_5 {
+      font-size: 2rem;  
+      padding-bottom: 1.2rem;
+      line-height: 35px;  
+    }
+ .besthouses__article_2 {font-size: 1rem; line-height: 1.25rem; }
+
+.besthouses__article_6 {
+      line-height: 1.25rem; font-size: 1rem;
+    }
+.besthouses__part_two { padding-bottom: 3rem;
+      align-items: center; padding-top: 3rem;
+    } 
+ .besthouses__container_3 {
+      padding-top: 0rem;}
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+  .body_besthouses {
+    padding-left: 3rem;
+    padding-right: 3rem;}
+}
+
+@media (max-width: 767px) {
+  .body_besthouses {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;}
+
+  .besthouses__container_2 {
+    width: 300px;
+    padding-top: 3rem;
+  }
+
+  .besthouses {
+ flex-direction: column;
+}
+
+ .besthouses__part_two {  
+   flex-direction: column;
+   align-items:flex-start;
+      }
+
+ .besthouses__container_3 {
+        padding-left: 0rem; 
+      }
+  .besthouses__container_6 { 
+    width: 300px;
+    padding-top: 3rem;}      
+}
+
+@media (max-width: 500px) {
+  .besthouses__container_2 {
+    width: 200px; padding-top: 1.2rem;
+  }
+  .besthouses__container_1{
+    grid-template-columns: 7rem 8rem; padding-top: 0.5rem;
+  }
+  .besthouses__container_6 { 
+    width: 200px; padding-top: 1.5rem;
+  }   
+  .besthouses__container_4 {
+      display: flex;
+      flex-direction: column;
+    }
+  .besthouses__button_2 {width: 7rem;
+      height: 2rem;
+      font-size: 0.8rem;}
+  .besthouses__article_3 { font-size: 0.8rem;}
+
+  .besthouses__container_5 {  grid-template-columns: 7rem 8rem; padding-top: 0.5rem;
+      }
+  .besthouses__button_4 {width: 7rem;
+        height: 2rem;
+        font-size: 0.8rem;}
+
+  .besthouses__article_11 { font-size: 0.8rem;
+        }
+  .besthouses__button_2 {width: 7rem;
+      height: 2rem;
+      font-size: 0.8rem;}
+  .besthouses__article_3 { font-size: 0.8rem;}
+  .besthouses__article_6 {
+    width: 300px;
+  }
+  .besthouses__icon_3 {
+    padding-bottom: 1rem;}
+  .besthouses__article_2 {width: 300px; font-size: 1rem;}
+}
+
+@media (max-width: 325px) { 
+  .besthouses__article_1 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    padding-bottom: 0.8rem;
+  }
+  .besthouses__article_5 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    padding-bottom: 0.8rem;
+  }
+  .besthouses__container_2 {
+    width: 150px;}
+  .besthouses__container_6 {
+        width: 150px;}
+  .besthouses__article_6 {
+      width: 250px;
+}
+ .besthouses__article_2 {
+    width: 250px;
+}
+
+.besthouses__container_1 { align-items: center;
+  grid-template-columns: 5rem 5rem;  
+}  
+.besthouses__button_2 {
+  width: 6rem;
+  font-size: 0.6rem;
+ }
+.besthouses__article_3 {  
+     font-size: 0.6rem; 
+    }
+.besthouses__container_1 { align-items: center;
+  grid-template-columns: 5rem 5rem;  
+}  
+.besthouses__button_2 {
+  width: 6rem;
+  font-size: 0.6rem;
+ }
+.besthouses__article_3 {  
+     font-size: 0.6rem; 
+    }
+
+.besthouses__container_5 { align-items: center;
+      grid-template-columns: 5rem 5rem;  
+    }  
+.besthouses__button_4 {
+      width: 6rem;
+      font-size: 0.6rem;
+     }
+.besthouses__article_11 {  
+         font-size: 0.6rem; 
+        }
+    
 }

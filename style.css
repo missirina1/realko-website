@@ -281,8 +281,8 @@ body {
 /* Конец блока How it works - Айтадж*/
 /* начало блока BestHouses - Yuliya Akula */
 .body_besthouses {
-  padding-left: 6.25rem;padding-top: 6.25rem;
-  padding-right: 6.25rem;
+  padding-left: 5rem;padding-top: 6.25rem;
+  padding-right: 5rem;
   background-color: rgb(255, 255, 255);
 }
 
@@ -445,7 +445,7 @@ body {
   grid-column: 1/2;
 }
 
-.besthouses__article_7 {
+.besthouses__article_7 { font-size: 1.3rem; font-weight: bold;
   grid-row: 2/3;
   grid-column: 1/2; padding-top: 10px;
   color: rgb(46, 46, 46);
@@ -465,8 +465,8 @@ body {
 }
 
 .besthouses__article_9 {
-  grid-row: 2/3;
-  grid-column: 3/4;
+  grid-row: 2/3; font-size: 1.3rem; font-weight: bold;
+  grid-column: 3/4; padding-top: 10px;
   color: rgb(46, 46, 46);
 }
 
