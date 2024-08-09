@@ -3,9 +3,10 @@
     display: none;
   }
 
-  .footer-spoiler {
+  .latest-posts__button_white.media {
     display: none;
   }
+
 }
 
 @media (min-width: 768px) and (max-width: 1240px) {
@@ -87,6 +88,15 @@
   .home-footer__icon img {
     margin: 0 1rem 0 1rem;
   }
+  .latest-posts__button_white.media {
+    display: none;
+  }
+}
+
+@media (min-width: 1051px) {
+  .footer-spoiler {
+    display: none;
+  }
   .how__cards {
     flex-direction: row;
     margin: 0 0 2.5rem 0;
@@ -112,6 +122,34 @@
   }
   .home-banner__column-2 img {
     width: 80%;
+  }
+
+   /* "Анна - Latest-posts - footer" */
+  .latest-posts, .latest-posts__cards{
+    margin: 0 2rem 0 2rem;
+    }
+  .latest-posts__info h3 {
+    font-size: 1.23rem;
+  }
+  .latest-posts__banner {
+    margin-bottom: 0.8rem;
+  }
+  /* "footer-spoiler" */ 
+  .footer-content__logo, .footer-content__head, 
+  .footer-content__column-one, 
+  .footer-content__column-two, 
+  .footer-content__column-three {
+    display: none;
+  }
+  .footer-content {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .footer-content__column-four {
+    justify-self: center;
+    margin-right: 0rem;
   }
 }
 @media (max-width: 767px) {
@@ -178,6 +216,18 @@
   .nav-link:hover {
     color: rgba(147, 152, 120, 1);
   }
+/* "Анна - Latest-posts - footer" */
+
+  .latest-posts__button_white.first {
+    display: none;
+  }
+  .latest-posts, .latest-posts__cards{
+    margin: 0 2rem 0 2rem;
+  }
+
+.footer-content__logo {
+  padding-left: 2rem;
+}
 }
 
 @media (max-width: 767px) and (min-width: 375px) {
@@ -238,7 +288,6 @@
     gap: 5rem;
     align-items: flex-start;
   }
-
   .home-footer__text {
     font-size: 1rem;
     margin: 0 0 0 0.7rem;
@@ -280,6 +329,56 @@
     font-size: 2rem;
   }
 
+    /* "Latest post - footer" */
+
+    .latest-posts, 
+    .latest-posts__cards, 
+    .footer-content, .footer__end p, 
+    .footer__end ul {
+      margin: 0 0.7rem 0 0.7rem;
+    }
+    .latest-posts, 
+    .latest-posts__cards{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .latest-posts__info {
+      padding: 0.8rem;
+    }
+    .latest-posts__section.one{
+      width: 90%;
+      margin: 0.7rem 0 1.5rem 0;
+      padding: 0.7rem;
+      }
+    .latest-posts__aside {
+      font-size: 1.1rem;
+      text-align: center;
+    }
+    .latest-posts__button_white.media a{
+      font-weight: 400;
+    }
+    .latest-posts__banner {
+      font-size: 2rem;
+      margin-bottom: 0rem;
+    }
+    footer {
+      padding-top: 3rem;
+    }
+    .footer-content__input input {
+    width: 60%;
+    }
+    .footer__end p {
+      font-size: 0.6rem;
+      margin-left: 1.5rem;
+    }
+    .footer__end ul {
+      padding-left: 0rem;
+    }
+      /* "footer-spoiler" */
+      .latest-posts__button_white.first, 
+      .latest-posts__section.two, 
+      .latest-posts__section.three,
   /* "footer-spoiler" */
   .footer-content__logo,
   .footer-content__head,
@@ -300,25 +399,6 @@
     padding-right: 0rem;
   }
   /* "footer-spoiler" */
-
-  .how__cards {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    margin: 0 0 2.5rem 0;
-  }
-
-  .subtitle {
-    font-size: 0.9rem;
-  }
-
-  .title2 {
-    font-size: 1.2rem;
-  }
-
-  .subtitle2 {
-    font-size: 0.9rem;
-  }
 }
 @media (max-width: 375px) {
   .home-banner__title {
@@ -381,6 +461,81 @@
   .customers__description h2 {
     font-size: 2rem;
   }
+
+/* "Latest post - footer" */
+
+.latest-posts, 
+.latest-posts__cards, 
+.footer-content, .footer-content__column-four,
+.footer__end p, 
+.footer__end ul {
+    margin: 0 0.7rem 0 0.7rem;
+  }
+  .latest-posts, 
+  .latest-posts__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .latest-posts__section.one {
+    margin: 0.7rem 0 0.7rem 0;
+    width: 90%;
+    }
+  .latest-posts__info {
+    padding: 0.8rem 0.8rem 2rem 0.8rem;
+  }
+  .latest-posts__button_white.media a{
+    font-weight: 400;
+  }
+  .latest-posts__banner {
+    font-size: 2rem;
+    margin-bottom: 0rem;
+  }
+  .latest-posts__info h3 {
+    font-size: 1.23rem;
+  }
+  .latest-posts__aside {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .latest-posts__button_white.media{
+  margin: 1rem 0 1rem 0;
+  }
+  footer {
+    padding-top: 1rem;
+  }
+  .footer-content__input input {
+  width: 60%;
+  }
+  .footer__end p {
+    font-size: 0.6rem;
+  }
+  .footer__end ul {
+    padding-left: 0rem;
+  }
+
+    /* "footer-spoiler" */
+    .latest-posts__button_white.first, 
+    .latest-posts__section.two, 
+    .latest-posts__section.three, 
+    .footer-content__logo, .footer-content__head, 
+    .footer-content__column-one, 
+    .footer-content__column-two, 
+    .footer-content__column-three {
+  display: none;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+}
+
+.footer-content__column-four {
+  justify-self: center;
+  padding-right: 0rem;
+}
+/* "footer-spoiler" */
 }
 
 @media (max-width: 1300px) {
@@ -391,8 +546,7 @@
     grid-row: 2;
   }
   .besthouses__article_12 {
-    grid-row: 2;
-  }
+      grid-row: 2;}
   .besthouses__container_2 {
     align-items: center;
   }
@@ -432,11 +586,11 @@
   .besthouses__article_9 {
     grid-row: 1 / 2;
   }
-  .besthouses__article_10 {
-    grid-row: 2/3;
-  }
-  .besthouses__container_4 {
-    padding-top: 0rem;
+    .besthouses__article_10 {
+      grid-row: 2/3;
+    }
+  .besthouses__container_4 
+    {padding-top: 0rem;
   }
 }
 
