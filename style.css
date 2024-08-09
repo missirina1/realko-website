@@ -514,9 +514,13 @@ body {
 /* конец блока BestHouses - Yuliya Akula */
 
 /* Начало блока Family - Айтадж*/
+.Family {
+  display: flex;
+  justify-content: center;
+}
 .container_2{
   display: flex;
-  width: 80rem;
+  width: 85%;
   height: 29.0625rem;
   background-color: rgba(101, 102, 92, 1);
   border-radius: 1.5rem;

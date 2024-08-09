@@ -123,7 +123,9 @@
   .home-banner__column-2 img {
     width: 80%;
   }
-
+  .customers__review img {
+    width: 25%;
+  }
    /* "Анна - Latest-posts - footer" */
   .latest-posts, .latest-posts__cards{
     margin: 0 2rem 0 2rem;
@@ -303,7 +305,7 @@
   .location {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.7fr 1fr 1fr 1fr;
-    padding: 0 3rem;
+    padding: 0 0.7rem;
     margin-bottom: 1rem;
   }
   .location__description {
@@ -315,18 +317,36 @@
   }
   .location__buttons {
     grid-column: 1 / 3;
-    justify-content: flex-start;
+    justify-content: center;
+  }
+  .container_2 {
+    height: auto;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .title3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .subtitle3 {
+    display: none;
+  }
+  .image2 {
+    margin-top: 2rem;
   }
   .customers {
     display: flex;
     flex-direction: column;
-    padding-bottom: 1rem;
+    padding: 1rem 0.7rem;
   }
   .customers__description {
     font-size: 0.9rem;
   }
   .customers__description h2 {
     font-size: 2rem;
+  }
+  .customers__review img {
+    width: 25%;
   }
 
     /* "Latest post - footer" */
@@ -442,6 +462,7 @@
   .location {
     display: flex;
     flex-direction: column;
+    padding: 0 0.7rem;
   }
   .location__description {
     font-size: 0.9rem;
@@ -449,16 +470,40 @@
   .location__description h2 {
     font-size: 2rem;
   }
+  .container_2 {
+    height: auto;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .title3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .subtitle3 {
+    display: none;
+  }
+  .image2 {
+    margin-top: 2rem;
+  }
   .customers {
     display: flex;
     flex-direction: column;
-    padding-bottom: 1rem;
+    padding: 1rem 0.7rem;
   }
   .customers__description {
     font-size: 0.9rem;
   }
   .customers__description h2 {
     font-size: 2rem;
+  }
+  .customers__review img {
+    width: 30%;
+  }
+  .customers__review {
+    font-size: 0.7rem;
+  }
+  #four, #five, #six {
+    display: none;
   }
 
 /* "Latest post - footer" */
