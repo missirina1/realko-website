@@ -9,6 +9,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1240px) {
+  /* блок адаптивности - Ирина */
   .home-header__burger {
     display: none;
   }
@@ -90,8 +91,26 @@
   .home-footer__icon img {
     margin: 0 1rem 0 1rem;
   }
+  /* конец блока адаптивности - Ирина */
   .latest-posts__button_white.media {
     display: none;
+  }
+  /* блок адаптивности - яна */
+  .card__title-text2 {
+    font-size: 2.5rem;
+  }
+  .card__title {
+    margin-bottom: 0.5rem;
+  }
+  .card-first-row {
+    gap: 1rem;
+  }
+  .card-second-row {
+    gap: 1rem;
+    margin-bottom: 5rem;
+  }
+  .card-first-row {
+    margin-bottom: 1rem;
   }
   .card__title-text2 {
     font-size: 2.5rem;
@@ -605,6 +624,8 @@
 }
 
 /*начало блока  "best houses" */
+
+/* Индивидуальный блок адаптивности -Яна  */
 @media (max-width: 1300px) {
   .besthouses__article_1 {
     font-size: 2.5rem;
@@ -910,3 +931,30 @@
 }
 
 /*конец блока  "best houses" */
+@media screen and (max-width: 1035px) {
+  .card-first-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-second-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .card__title-text2 {
+    font-size: 2rem;
+  }
+  .card__title {
+    margin-bottom: 0.2rem;
+  }
+  .card-second-row {
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 409px) {
+  .card__title-text2 {
+    font-size: 1.7rem;
+    padding-top: 2rem;
+  }
+}
